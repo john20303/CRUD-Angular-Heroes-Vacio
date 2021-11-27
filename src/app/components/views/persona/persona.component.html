@@ -1,0 +1,67 @@
+<h1>Crear una persona nueva!</h1>
+<hr/>
+
+<div class="row">
+  <div class="col text-end">
+    <button class="btn btn-danger">
+      <i class="fas fa-arrow-left"></i> Agregar
+    </button>
+  </div>
+</div>
+
+<div class="row animate__rubberBand">
+  <div class="col">
+    <form>
+      <!-- //////////////////////////// -->
+      <div class="form-group">
+        <label>Persona ID</label>
+        <input class="form-control" type="text" disabled="true" placeholder="Persona ID" name="id"/>
+        <small class="text-muted form-text">*Este campo es autogenerado.</small>
+      </div>
+      <!-- //////////////////////////// -->
+
+      <!-- //////////////////////////// -->
+      <div class="form-group">
+        <label>Nombre & Apelldio</label>
+        <input class="form-control" type="text" placeholder="Nombre del héroe" required
+               name="nombre"/>
+      </div>
+      <!-- //////////////////////////// -->
+
+      <!-- //////////////////////////// -->
+      <div class="form-group">
+        <label>Profeción</label>
+        <input class="form-control" type="text" placeholder="Profeción" required
+               name="profecion"/>
+      </div>
+      <!-- //////////////////////////// --><!-- //////////////////////////// -->
+      <div class="form-group">
+        <label>Dirección</label>
+        <input class="form-control" type="text" placeholder="Dirección" required
+               name="direccion"/>
+      </div>
+      <!-- //////////////////////////// -->
+
+      <!-- //////////////////////////// -->
+      <div class="form-group">
+        <label>Estado</label>
+        <br/>
+        <button type="button" class="btn btn-outline-success w-50">
+          <i class="fas fa-smile-wink"></i>Vivo
+        </button>
+        <button type="button" class="btn btn-outline-danger w-50">
+          <i class="fas fa-dizzy"></i>Muerto
+        </button>
+      </div>
+      <!-- //////////////////////////// -->
+
+      <!-- //////////////////////////// -->
+      <hr/>
+      <div class="form-group text-center">
+        <button type="submit" class="btn btn-primary w-50">
+          <i class="fa fa-save" aria-hidden="true"></i>Guardar
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
